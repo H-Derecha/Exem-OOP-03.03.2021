@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Realisation">
+      <UniqueIdentifier>{7edffac8-17b2-4377-a65c-07453087e9e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Realisation\Base">
+      <UniqueIdentifier>{fa8e280c-f249-456c-8ab0-edf66686552f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Realisation\Collection">
+      <UniqueIdentifier>{823f6978-10cd-479d-bbfe-67d8fc373a45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Realisation\Storage">
+      <UniqueIdentifier>{3ce76f30-88db-4ef5-9369-182b340047c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Base">
+      <UniqueIdentifier>{d9441906-a767-4650-8b5e-a02f065eaef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Collection">
+      <UniqueIdentifier>{2cd84aa2-67b5-4e2c-9f18-0c5073324372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Storage">
+      <UniqueIdentifier>{b7a3240c-9257-41c5-89c2-1b09251cc40d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Base.cpp">
+      <Filter>Realisation\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Collection.cpp">
+      <Filter>Realisation\Collection</Filter>
+    </ClCompile>
+    <ClCompile Include="dvd.cpp">
+      <Filter>Realisation\Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="phd.cpp">
+      <Filter>Realisation\Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="usb.cpp">
+      <Filter>Realisation\Storage</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Base.h">
+      <Filter>Файлы заголовков\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Collection.h">
+      <Filter>Файлы заголовков\Collection</Filter>
+    </ClInclude>
+    <ClInclude Include="dvd.h">
+      <Filter>Файлы заголовков\Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="phd.h">
+      <Filter>Файлы заголовков\Storage</Filter>
+    </ClInclude>
+    <ClInclude Include="usb.h">
+      <Filter>Файлы заголовков\Storage</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

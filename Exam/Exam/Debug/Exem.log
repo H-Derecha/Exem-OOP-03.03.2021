@@ -1,0 +1,11 @@
+﻿  Base.cpp
+  Collection.cpp
+  dvd.cpp
+C:\Users\MASTER\source\repos\Exem\Exem\dvd.cpp(57,6): warning C4101: sizes: неиспользованная локальная переменная
+  Main.cpp
+  phd.cpp
+C:\Users\MASTER\source\repos\Exem\Exem\phd.cpp(56,6): warning C4101: sizes: неиспользованная локальная переменная
+  usb.cpp
+C:\Users\MASTER\source\repos\Exem\Exem\usb.cpp(57,6): warning C4101: sizes: неиспользованная локальная переменная
+  Создание кода...
+  Exem.vcxproj -> C:\Users\MASTER\source\repos\Exem\Debug\Exem.exe
